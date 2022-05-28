@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSHtml", "CSHtml\CSHtml.csproj", "{333E0139-C853-464F-B888-E553E2B9CE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSHtml.Examples", "CSHtml.Examples\CSHtml.Examples.csproj", "{C988E54A-1430-40B4-938B-6AF680E74DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333E0139-C853-464F-B888-E553E2B9CE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333E0139-C853-464F-B888-E553E2B9CE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333E0139-C853-464F-B888-E553E2B9CE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333E0139-C853-464F-B888-E553E2B9CE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C988E54A-1430-40B4-938B-6AF680E74DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C988E54A-1430-40B4-938B-6AF680E74DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C988E54A-1430-40B4-938B-6AF680E74DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C988E54A-1430-40B4-938B-6AF680E74DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE9944F0-0AD5-419A-BA4E-1F1CD0AC7C87}
+	EndGlobalSection
+EndGlobal
