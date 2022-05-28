@@ -56,6 +56,19 @@ namespace CSHtml
 			return htag;
 		}
 
+		public void AddChunk(HtmlBuilder builder)
+		{
+			var lines = builder.ToString().Split(builder._writer.NewLine.ToCharArray());
+
+			foreach (string l in lines)
+			{
+				if (string.IsNullOrEmpty(l))
+					continue;
+
+				this.WriteLine(l);
+			}
+		}
+
 		public void Write(string line, bool tabs = true)
 		{
 			if (tabs)

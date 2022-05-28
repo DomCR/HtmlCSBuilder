@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 namespace CSHtml.Examples
 {
 	public class SaveDocument
 	{
+		/// <summary>
+		/// Example of how to save the document
+		/// </summary>
+		/// <param name="builder"></param>
+		/// <param name="path"></param>
+		public void Save(HtmlBuilder builder, string path)
+		{
+			using (StreamWriter sw = new StreamWriter(path))
+			{
+				sw.Write(builder.ToString());
+			}
+		}
 	}
 }

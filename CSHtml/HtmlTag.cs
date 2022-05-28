@@ -66,6 +66,8 @@
 
         Form,
 
+        Footer,
+
         Frame,
 
         Frameset,
