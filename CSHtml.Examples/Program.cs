@@ -6,7 +6,9 @@ namespace CSHtml.Examples
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			BasicExamples.WriteSimpleHtml();
+
+			Console.ReadLine();
 		}
 	}
 }
