@@ -6,7 +6,7 @@ namespace CSHtml.Examples
 	{
 		static void Main(string[] args)
 		{
-			BasicExamples.WriteSimpleHtml();
+			ModularHtml.WritePages();
 
 			Console.ReadLine();
 		}

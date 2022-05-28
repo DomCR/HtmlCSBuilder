@@ -64,7 +64,7 @@ namespace CSHtml.Examples
 			return head;
 		}
 
-		public static HtmlBuilder footer()
+		private static HtmlBuilder footer()
 		{
 			HtmlBuilder foot = new HtmlBuilder();
 
