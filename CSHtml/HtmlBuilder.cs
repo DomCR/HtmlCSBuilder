@@ -20,9 +20,25 @@ namespace CSHtml
 			this._writer = writer;
 		}
 
+
+		public void AddInlineTag(HtmlTag tag)
+		{
+			HtmlTagEntry.WriteInlineTag(this, tag.ToString().ToLower());
+		}
+
+		public void AddInlineTag(HtmlTag tag, params (HtmlAttribute att, string value)[] arr)
+		{
+			HtmlTagEntry.WriteInlineTag(this, tag.ToString().ToLower(), arr);
+		}
+
+		public void AddInlineTag(HtmlTag tag, params (string att, string value)[] arr)
+		{
+			HtmlTagEntry.WriteInlineTag(this, tag.ToString().ToLower(), arr);
+		}
+
 		public HtmlTagEntry AddTag(HtmlTag tag)
 		{
-			var htag = new HtmlTagEntry(this, tag.ToString());
+			var htag = new HtmlTagEntry(this, tag.ToString().ToLower());
 
 			this._indentLevel++;
 			htag.OnDispose += this.onTagDisposed;
@@ -32,7 +48,7 @@ namespace CSHtml
 
 		public HtmlTagEntry AddTag(HtmlTag tag, params (HtmlAttribute att, string value)[] arr)
 		{
-			var htag = new HtmlTagEntry(this, tag.ToString(), arr);
+			var htag = new HtmlTagEntry(this, tag.ToString().ToLower(), arr);
 
 			this._indentLevel++;
 			htag.OnDispose += this.onTagDisposed;
