@@ -1,4 +1,4 @@
-# HtmlSharp
+# HtmlCSBuilder
 
 Library to write HTML documents using .NET
 
@@ -15,7 +15,7 @@ Example of basic html
 </html>
 ```
 
-HtmlSharp syntact to write the html sample:
+HtmlCSBuilder syntact to write the html sample:
 
 ```c#
 HtmlBuilder builder = new HtmlBuilder();

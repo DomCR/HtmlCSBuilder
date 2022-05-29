@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HtmlSharp.Examples
+namespace HtmlCSBuilder.Examples
 {
 	internal class Program
 	{

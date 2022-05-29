@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HtmlSharp.Examples
+namespace HtmlCSBuilder.Examples
 {
 	public class BasicExamples
 	{

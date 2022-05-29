@@ -1,4 +1,4 @@
-﻿namespace HtmlSharp
+﻿namespace HtmlCSBuilder
 {
     public enum HtmlTag
     {

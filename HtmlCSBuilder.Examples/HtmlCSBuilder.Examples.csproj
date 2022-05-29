@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSHtml\HtmlSharp.csproj" />
-    <ProjectReference Include="..\HtmlSharp\HtmlSharp.csproj" />
+    <ProjectReference Include="..\HtmlCSBuilder\HtmlCSBuilder.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace HtmlSharp.Examples
+namespace HtmlCSBuilder.Examples
 {
 	public class SaveDocument
 	{
