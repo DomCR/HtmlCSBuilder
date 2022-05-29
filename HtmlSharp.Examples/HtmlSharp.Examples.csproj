@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSHtml\CSHtml.csproj" />
+    <ProjectReference Include="..\CSHtml\HtmlSharp.csproj" />
+    <ProjectReference Include="..\HtmlSharp\HtmlSharp.csproj" />
   </ItemGroup>
 
 </Project>

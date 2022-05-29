@@ -1,4 +1,4 @@
-# CSHtml
+# HtmlSharp
 
 Library to write HTML documents using .NET
 
@@ -15,7 +15,7 @@ Example of basic html
 </html>
 ```
 
-CSHtml syntact to write the html sample:
+HtmlSharp syntact to write the html sample:
 
 ```c#
 HtmlBuilder builder = new HtmlBuilder();

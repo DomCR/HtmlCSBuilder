@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net48;netstandard2.1</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Authors>DomCr</Authors>
+    <PackageId>HtmlSharp</PackageId>
+    <PackageTags>C# Html html-generator html-document html-builder</PackageTags>
+    <RepositoryUrl>https://github.com/DomCR/NetDocGen</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/DomCR/NetDocGen</PackageProjectUrl>
+    <Copyright>Copyright (c) 2022 Albert Domenech</Copyright>
+    <Description>Light weight library to generate assembly documentation in Html/Markdown.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>2022.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

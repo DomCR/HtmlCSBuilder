@@ -1,4 +1,4 @@
-﻿namespace CSHtml
+﻿namespace HtmlSharp
 {
     public enum HtmlTag
     {

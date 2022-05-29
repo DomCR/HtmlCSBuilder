@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSHtml.Examples
+namespace HtmlSharp.Examples
 {
 	public class ModularHtml
 	{

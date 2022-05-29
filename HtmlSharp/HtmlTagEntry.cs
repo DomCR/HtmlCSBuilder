@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CSHtml
+namespace HtmlSharp
 {
 	public class HtmlTagEntry : IDisposable
 	{
